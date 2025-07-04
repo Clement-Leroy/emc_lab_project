@@ -55,10 +55,10 @@ project_table = html.Div(dag.AgGrid(
         ))
 
 connection = pymysql.connect(
-       host='localhost',
+       host='database',
        port=3306,
        user='root',
-       password="password",
+       password="root",
        db='emc_lab_project',
        cursorclass=pymysql.cursors.DictCursor,
         connect_timeout = 30,
