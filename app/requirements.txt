@@ -1,0 +1,13 @@
+gunicorn
+dash
+dash_bootstrap_components
+dash_ag_grid
+dash_auth
+plotly
+pandas
+pymysql
+cryptography
+mysql
+datetime
+math
+time
