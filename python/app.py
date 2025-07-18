@@ -15,8 +15,8 @@ import cryptography
 connection = pymysql.connect(
        host='database',
        port=3306,
-       user='user',
-       password="password",
+       user='root',
+       password="root",
        db='emc_lab_energy',
        cursorclass=pymysql.cursors.DictCursor
    )
