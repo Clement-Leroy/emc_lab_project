@@ -72,7 +72,7 @@ CREATE TABLE `project_tracker` (
   `Report` text,
   `Work [hours]` double DEFAULT NULL,
   `Invoice` text,
-  `Notes` text
+  `Status` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
